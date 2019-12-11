@@ -63,7 +63,7 @@ button:hover {
 
 .hero {
   position: relative;
-  width: 60%;
+  width: 100%;
   float: left;
   clear: both;
 }
@@ -95,4 +95,26 @@ button:hover {
 
 .social img {
  margin-right: 12px;
+}
+
+.info-section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  clear: both;
+}
+
+.info-1 {
+    margin-top: 280px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 22px;
+  padding-right: 120px;
+  padding-left: 40px;
+  line-height: 1.4;
+  border-bottom: 1px solid black;
 }
