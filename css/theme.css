@@ -68,7 +68,7 @@ button:hover {
   clear: both;
 }
 
-h1 {
+h1, h2 {
   margin-top: 20vh;
   font-size: calc(32px + 2.5vw);
   font-family: 'Nunito Sans', sans-serif;
@@ -264,7 +264,41 @@ hr {
 
 .footer-banner {
   width: 100vw;
-  margin: 0;
-  background-image: url('images/footer-bg.png');
-  height: 385px;
+  background-color: #f8f8f8;
+  height: 430px;
+  z-index: -20;
+}
+
+.banner-container {
+  position: relative;
+  max-width: 1340px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0 auto;
+}
+
+.banner-image {
+  position: absolute;
+  right: 5vw;
+  top: 115px;
+}
+
+
+
+.banner-title h2 {
+  font-size: 40px;
+  padding-top: 115px;
+  line-height: 1.2;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.banner-title button {
+  float: left;
+  display: inline;
+}
+
+
+.banner-title p {
+  margin-top: -8px;
+  padding-left: 4px;
 }
