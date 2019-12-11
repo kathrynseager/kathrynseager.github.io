@@ -45,8 +45,7 @@ button {
   padding: 13.75px 33.32px;
   font-size: 14px;
   letter-spacing: 4px;
-  background-color: #fbfbfb;
-  opacity: 0.95;
+  background-color: #ffffff;
   margin-right: 24px;
 }
 
@@ -69,7 +68,7 @@ button:hover {
 
 .hero h1 {
   margin-top: 20vh;
-  font-size: 73px;
+  font-size: calc(32px + 2.5vw);
   font-family: 'Nunito Sans', sans-serif;
   line-height: 1.15;
 }
