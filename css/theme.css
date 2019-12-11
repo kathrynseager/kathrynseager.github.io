@@ -204,9 +204,10 @@ p {
 
 .info-3 p {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   padding-left: 8px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 
 .button-container {
