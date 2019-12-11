@@ -22,7 +22,6 @@ body {
   max-width: 1280px !important;
   margin: 0 auto;
   padding: 40px;
-  padding:
   position: relative;
 }
 
@@ -32,8 +31,8 @@ body {
 }
 
 .nav-menu-left {
-  float: left;
-  padding-top: 20px;
+  position: absolute;
+  top: 92px;
 }
 
 
