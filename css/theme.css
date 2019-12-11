@@ -68,7 +68,7 @@ button:hover {
   clear: both;
 }
 
-.hero h1 {
+h1 {
   margin-top: 20vh;
   font-size: calc(32px + 2.5vw);
   font-family: 'Nunito Sans', sans-serif;
@@ -97,18 +97,30 @@ button:hover {
  margin-right: 12px;
 }
 
+.hero-padding {
+  width: 100vw;
+  clear: both;
+  height: 380px;
+}
+
 .info-section {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   clear: both;
+  min-height: 500px;
 }
 
 .info-1 {
-    margin-top: 280px;
     display: grid;
     grid-template-columns: auto auto;
 }
+
+.info-3 {
+    display: grid;
+    grid-template-columns: 116px auto 116px auto;
+}
+
 
 p {
   font-family: 'Nunito Sans', sans-serif;
@@ -131,10 +143,128 @@ p {
   left: 0;
   right: 0;
   width: 100%;
-  color: #000;
+  color: #3c3c3c;
   background-color: #3c3c3c;
   left: 0;
   bottom: -22px;
   /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
 }
-/*bulb added*/
+
+
+.cert {
+  display: grid;
+  grid-template-columns: 82px auto;
+  margin-top: 20px;
+}
+
+.cert-icon {
+  width: 80px;
+  height: auto;
+}
+
+.cert-text h2 {
+  margin: 0px;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31px;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.cert-text p {
+  margin: 0px;
+  padding-left: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.info-3 p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-top: 20px;
+}
+
+.button-container {
+  margin-top: 50px;
+}
+
+.button-container button {
+  border: 2px solid #3c3c3c;
+  font-weight: 600;
+}
+
+
+.button-container button:hover {
+  background-color: #fff500;
+  color: #3c3c3c;
+}
+
+hr {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.project-section {
+
+}
+
+.project-section h1 {
+  margin-top: 80px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 30px;
+}
+
+.project-card {
+  border: 2px solid #3c3c3c;
+}
+
+.card-info {
+  display: grid;
+  grid-template-columns: 116px auto;
+  background-color: #3c3c3c;
+  color: #ccc;
+}
+
+.project-card img {
+  height: 100%;
+  width: auto;
+
+}
+
+.card-info p {
+  margin-left: 14px;
+  padding-left: 0px;
+  font-size: 23px;
+  margin-top: 10px;
+  padding-right: 10px;
+
+}
+
+
+.small-text {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+
+.footer-banner {
+  width: 100vw;
+  margin: 0;
+  background-image: url('images/footer-bg.png');
+  height: 385px;
+}
