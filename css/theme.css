@@ -129,6 +129,7 @@ h1, h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   clear: both;
+  grid-gap: 30px;
   min-height: 500px;
 }
 
@@ -145,7 +146,7 @@ h1, h2 {
 
 p {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   padding-right: 100px;
   padding-left: 40px;
   line-height: 1.4;
@@ -223,6 +224,17 @@ p {
 .button-container button:hover {
   background-color: #fff500;
   color: #3c3c3c;
+}
+
+.button-container-alt button {
+  margin-top: 50px;
+  border: 2px solid #3c3c3c;
+  font-weight: 600;
+}
+
+
+.button-container-alt button:hover {
+  color: #f8f8f8;
 }
 
 hr {
@@ -316,12 +328,18 @@ hr {
   line-height: 1.2;
   font-family: 'Nunito Sans', sans-serif;
   z-index: 2;
+  margin-top: 40px;
 }
 
 .banner-title button {
   float: left;
   display: inline;
   z-index: 3;
+  background-color: #fdfdfd;
+}
+
+.banner-title button:hover {
+  background-color: #3c3c3c;
 }
 
 
