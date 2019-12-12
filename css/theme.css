@@ -122,7 +122,6 @@ h1, h2 {
 .hero-padding {
   width: 100vw;
   clear: both;
-  height: 350px;
 }
 
 .info-section {
@@ -132,6 +131,7 @@ h1, h2 {
   clear: both;
   grid-gap: 10px;
   min-height: 500px;
+  margin-top: 350px;
 }
 
 .info-1 {
