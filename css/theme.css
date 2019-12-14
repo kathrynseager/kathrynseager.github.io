@@ -62,6 +62,7 @@ a {
   float: right;
 }
 
+
 button {
   font-style: 'Nunito Sans', sans-serif;
   font-weight: 400;
@@ -139,6 +140,9 @@ h1, h2 {
     grid-template-columns: auto auto;
 }
 
+.info-1 p {
+  max-width: 340px;
+}
 
 .info-3 {
     display: grid;
@@ -400,6 +404,69 @@ footer {
     grid-template-columns: 400px 400px;
   }
 }
+@media only screen and (max-width: 1233px) {
+  .banner-image {
+    position: relative;
+    height: 160px;
+    right: inherit;
+    top: inherit;
+    margin-bottom: 0px;
+    padding-top: 40px;
+  }
+  .banner-image img {
+    height: 100%;
+    width: auto;
+  }
+  .footer-banner {
+    padding-bottom: 40px;
+  }
+  .banner-title h2 {
+    padding-top: 0px;
+    margin-top: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 1045px) {
+  .nav-menu-left a img{
+    width: 80%;
+    padding-top: 10px;
+  }
+  .nav-menu-right button {
+    font-style: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid #3c3c3c;
+    padding: 8px 20px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    background-color: #ffffff;
+    margin-right: 24px;
+    margin-top: 16px;
+  }
+
+  .info-section {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+  .info-1 {
+    grid-template-columns: 110px auto;
+  }
+  .info-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-2 button {
+    margin-left: 20%;
+  }
+  .info-3 {
+    grid-row-gap: 20px;
+  }
+
+}
+
+
+
 
 @media only screen and (max-width: 900px) {
   .project-grid {
