@@ -447,8 +447,10 @@ footer {
   margin-top: 120px;
 }
 
-#project-pad {
-  padding-top:
+#project-end {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  width: 0%;
 }
 
 @media only screen and (max-width: 1330px) {
