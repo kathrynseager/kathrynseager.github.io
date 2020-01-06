@@ -440,6 +440,10 @@ footer {
   padding-top: 0px;
 }
 
+.andless {
+  display: none;
+}
+
 .work-type-section {
   width: 45%;
   display: grid;
@@ -562,5 +566,15 @@ footer {
   .project-grid {
     grid-template-columns: 80vw;
     margin-left: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .web-frame {
+    display: none;
+  }
+
+  .andless {
+    display: block;
   }
 }
